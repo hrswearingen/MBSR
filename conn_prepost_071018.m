@@ -1,5 +1,5 @@
 %% Set up path environments 
-addpath(genpath('/Volumes/Luria/TBS-PM/scripts'));
+addpath(genpath('/Users/cfnnmri/Documents/MBCP/scripts'));
 
 %% Config for no desktop mode
 spm defaults fmri
@@ -8,8 +8,8 @@ spm_get_defaults('cmdline',true)
 
 
 %% STUDY-SPECIFIC PARAMETERS
-STUDY_DIR = '/Users/Broca/Desktop/PARTICIPANT_DATA/TBS';
-ANALYSIS_DIR = '/Volumes/Luria/TBS-PM';
+STUDY_DIR = '/Users/cfnnmri/Documents/MBSR';
+ANALYSIS_DIR = '/Users/cfnnmri/Documents/MBCP/';
 ROI_DIR = [ANALYSIS_DIR,'/ROIs'];
 TR=2.5;
 SESSIONS = {'PRE','POST'};
